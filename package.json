@@ -94,5 +94,8 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/aos": "^3.0.7",
     "@types/cleave.js": "^1.4.12"
+  },
+  "resolutions": {
+    "typescript": "^4.9.5"
   }
 }
