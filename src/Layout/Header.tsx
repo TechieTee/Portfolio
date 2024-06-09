@@ -10,7 +10,7 @@ import logoSm from "assets/images/logo-sm.png";
 import logoDark from "assets/images/logo-dark.png";
 import logoLight from "assets/images/logo-light.png";
 
-//import components
+//import components';
 import LightDark from 'Common/LightDark';
 import NotificationDropdown from 'Common/NotificationDropdown';
 import { Dropdown } from 'Common/Components/Dropdown';
@@ -164,8 +164,8 @@ const Header = ({ handleToggleDrawer, handleDrawer }: any) => {
 
                             <div className="flex gap-3 ms-auto">
 
-                       
-                             
+                                {/* LanguageDropdown */}
+                    
 
                                 {/* LightDark */}
                                 <LightDark />
