@@ -18,7 +18,7 @@ const Home = () => {
                             <h2 className="mb-4 !leading-normal lg:text-2xl 2xl:text-6xl dark:text-zinc-100" data-aos="fade-right" data-aos-delay="300">Software Engineer [Frontend, React]</h2>
                             <p className="text-lg mb-7 text-slate-500 dark:text-zinc-400" data-aos="fade-right" data-aos-delay="600">Passionate about developing scalable, maintainable and usable front-end web applications, with a special love for crafting pixel-perfect user interfaces, ui logic and playing around data on the client side. <br/><br/> She is not afraid to offer up innovative ideas, She thrives in a great teamwork environment, and can effectively work independently. </p>
                             <div className="flex items-center gap-2" data-aos="fade-right" data-aos-delay="800">
-                                <button type="button" className="px-8 py-3 text-white border-0 text-15 btn bg-gradient-to-r from-custom-500 to-purple-500 hover:text-white hover:from-purple-500 hover:to-custom-500" > <a href="https://drive.google.com/file/d/1kzoz9rYcDEXOQbQU4TwdWr0HeSkpWch1/view" target={"_blank"}>View Resume <Book className="inline-block size-4 align-middle rtl:mr-1 ltr:ml-1" /></a> 
+                                <button type="button" className="px-8 py-3 text-white border-0 text-15 btn bg-gradient-to-r from-custom-500 to-purple-500 hover:text-white hover:from-purple-500 hover:to-custom-500" > <a href="https://drive.google.com/file/d/1hkj6idIGg3zCt0Jrz5tYLNu8sTUkGVF_/view?usp=sharing" target={"_blank"}>View Resume <Book className="inline-block size-4 align-middle rtl:mr-1 ltr:ml-1" /></a> 
                                 </button>
                             </div>
                         </div>

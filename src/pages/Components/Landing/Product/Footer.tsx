@@ -1,5 +1,5 @@
 import React from "react";
-import { Book, Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import { Book, Facebook, Github, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 // Image
 import us from "assets/images/flags/us.svg";
@@ -22,7 +22,7 @@ const Footer = () => {
                             <div className="md:col-span-2">
                                 <div className="relative dropdown">
                                     <button type="button" className="inline-flex items-center gap-3 transition-all duration-200 ease-linear dropdown-toggle btn border-slate-700 group/items focus:border-custom-500" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                         <h6 className="text-base font-medium transition-all duration-200 ease-linear text-slate-300 group-hover/items:text-custom-500"> <a href="https://drive.google.com/file/d/1kzoz9rYcDEXOQbQU4TwdWr0HeSkpWch1/view" target={"_blank"}>View CV <Book className="inline-block size-4  rtl:mr-1 ltr:ml-1" /></a>
+                                         <h6 className="text-base font-medium transition-all duration-200 ease-linear text-slate-300 group-hover/items:text-custom-500"> <a href="https://drive.google.com/file/d/1hkj6idIGg3zCt0Jrz5tYLNu8sTUkGVF_/view?usp=sharing" target={"_blank"}>View CV <Book className="inline-block size-4  rtl:mr-1 ltr:ml-1" /></a>
                                   </h6>
                                     </button>
 
@@ -32,11 +32,11 @@ const Footer = () => {
                             <div className="md:col-span-3 md:col-start-10">
                                 <ul className="flex items-center gap-3 md:justify-end">
                                     <li>
-                                        <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
-                                            <Facebook className="size-4"></Facebook></a>
+                                        <a href="https://github.com/techietee" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
+                                            <Github className="size-4"></Github></a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
+                                        <a href="https://www.linkedin.com/in/techietee/" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Linkedin className="size-4"></Linkedin></a>
                                     </li>
                                     <li>
