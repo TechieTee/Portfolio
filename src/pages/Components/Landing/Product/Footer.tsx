@@ -22,7 +22,7 @@ const Footer = () => {
                             <div className="md:col-span-2">
                                 <div className="relative dropdown">
                                     <button type="button" className="inline-flex items-center gap-3 transition-all duration-200 ease-linear dropdown-toggle btn border-slate-700 group/items focus:border-custom-500" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                         <h6 className="text-base font-medium transition-all duration-200 ease-linear text-slate-300 group-hover/items:text-custom-500"> <a href="https://drive.google.com/file/d/1hkj6idIGg3zCt0Jrz5tYLNu8sTUkGVF_/view?usp=sharing" target={"_blank"}>View CV <Book className="inline-block size-4  rtl:mr-1 ltr:ml-1" /></a>
+                                         <h6 className="text-base font-medium transition-all duration-200 ease-linear text-slate-300 group-hover/items:text-custom-500"> <a href="https://drive.google.com/file/d/1OC_AFbloeXTSX9WzRI9UXncsTHjKXgMf/view?usp=sharing" target={"_blank"}>View CV <Book className="inline-block size-4  rtl:mr-1 ltr:ml-1" /></a>
                                   </h6>
                                     </button>
 

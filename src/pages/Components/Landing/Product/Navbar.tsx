@@ -38,10 +38,15 @@ const Navbar = () => {
             <nav className={`fixed inset-x-0 top-0 z-50 flex items-center justify-center h-20 py-3 [&.is-sticky]:bg-white dark:[&.is-sticky]:bg-zinc-900 border-b border-slate-200 dark:border-zinc-800 [&.is-sticky]:shadow-lg [&.is-sticky]:shadow-slate-200/25 dark:[&.is-sticky]:shadow-zinc-700/30 navbar ${navClass}`} id="navbar">
                 <div className="container 2xl:max-w-[87.5rem] px-4 mx-auto flex items-center self-center w-full">
                     <div className="shrink-0">
-                        <Link to="/">
-                            <img src={""} alt="logo" className="block h-6 dark:hidden" />
-                            <img src={""} alt="logo" className="hidden h-6 dark:block" />
-                        </Link>
+               
+                            {/* <img src={""} alt="logo" className="block h-6 dark:hidden" />
+                            <img src={""} alt="logo" className="hidden h-6 dark:block" /> */}
+                                               <h1 className=" lg:text-2xl !text-[#3b82f6]"> <a href="#home"
+                                  
+                                    onClick={() => handleLinkClick("/Home")}
+                                >
+                                   FATIMA.</a></h1>
+                  
                     </div>
                     <div className="mx-auto">
                         <ul id="navbar7" className={`absolute inset-x-0 z-20 items-center py-3 mt-px bg-white shadow-lg md:mt-0 dark:bg-zinc-800 dark:md:bg-transparent md:z-0 navbar-menu rounded-b-md md:shadow-none md:flex top-full ltr:ml-auto rtl:mr-auto md:relative md:bg-transparent md:rounded-none md:top-auto md:py-0 ${!isToggle ? "hidden" : ""}`}>
@@ -57,7 +62,7 @@ const Navbar = () => {
                                     className={`block md:inline-block px-4 md:px-3 py-2.5 md:py-0.5 text-15 font-medium text-slate-800 transition-all duration-300 ease-linear hover:text-custom-500 [&.active]:text-custom-500 dark:text-zinc-200 dark:hover:text-custom-500 dark:[&.active]:text-custom-500 ${activeLink === "/Product" ? "active" : ""}`}
                                     onClick={() => handleLinkClick("/Product")}
                                 >
-                                    About Me</a>
+                                    Tech Stack</a>
                             </li>
                             <li>
                                 <a href="#project"

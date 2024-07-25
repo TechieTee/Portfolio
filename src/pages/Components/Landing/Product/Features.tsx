@@ -1,7 +1,7 @@
 import React from "react";
 
 // Image
-import productCta from "assets/images/product/cta.png";
+
 import { MoveRight } from "lucide-react";
 
 const Features = () => {
@@ -26,12 +26,10 @@ const Features = () => {
                             </a>
                         </div>
                         <div className="relative lg:col-start-8 lg:col-span-7">
-                            <div className="absolute right-0 bg-center bg-cover bottom-40 w-52 h-96 bg-[url('../images/product/cta-2.png')] rounded-md" data-aos="fade-left" data-aos-delay="400">
+                            <div className="absolute right-0 bg-center bg-cover bottom-40 w-52 h-96  rounded-md" data-aos="fade-left" data-aos-delay="400">
                                 <div className="absolute inset-0 bg-gradient-to-b from-purple-500/30 to-white dark:to-zinc-900 from-30%"></div>
                             </div>
-                            <div className="mr-16">
-                                <img src={productCta} alt="" className="relative inline-block" data-aos="fade-up-right" />
-                            </div>
+                       
                         </div>
                     </div>
                 </div>
