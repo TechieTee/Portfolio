@@ -25,7 +25,7 @@ const Feedback = () => {
             <section className="relative py-24 xl:py-32" id="feedback">
                 <div className="container 2xl:max-w-[87.5rem] px-4 mx-auto">
                     <div className="mx-auto mb-8 text-center xl:max-w-3xl">
-                        <h1 className="mb-0 leading-normal capitalize">What people say about me</h1>
+                        <h1 className="mb-0 leading-normal capitalize hidden">What people say about me</h1>
                     </div>
                     {/* <Swiper className="pb-6 feedback-slider"
                         slidesPerView={3}
@@ -106,7 +106,7 @@ const Feedback = () => {
                 <div className="container 2xl:max-w-[87.5rem] px-4 mx-auto">
                     <div className="grid items-center grid-cols-1 gap-5 lg:grid-cols-12">
                         <div className="lg:col-span-8" data-aos="fade-right">
-                            <h1 className="mb-4 leading-normal capitalize">Do you need any Career Advice?</h1>
+                            <h1 className="mb-4 leading-normal capitalize">Do you need any career advice / Job to be done?</h1>
                             <p className="text-lg text-slate-500 dark:text-zinc-400">Send me an email.</p>
                         </div>
                         <div className="ltr:lg:text-right rtl:lg:text-left lg:col-span-4">

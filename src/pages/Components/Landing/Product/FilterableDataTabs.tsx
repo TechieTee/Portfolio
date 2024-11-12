@@ -9,14 +9,14 @@ interface DataItem {
 }
 
 const data: DataItem[] = [
-  { title: 'App 1', content: 'Content for App 1', filter: '.filter-app' },
-  { title: 'App 2', content: 'Content for App 2', filter: '.filter-app' },
-  { title: 'Web 1', content: 'Content for Web 1', filter: '.filter-web' },
-  { title: 'Web 2', content: 'Content for Web 2', filter: '.filter-web' },
-  { title: 'Design 1', content: 'Content for Design 1', filter: '.filter-design' },
+  { title: 'App 1', content: 'Content for App 1', filter: 'Web Apps' },
+  { title: 'App 2', content: 'Content for App 2', filter: 'Web Apps' },
+  { title: 'Web 1', content: 'Content for Web 1', filter: 'React Apps' },
+  { title: 'Web 2', content: 'Content for Web 2', filter: 'React Apps' },
+  { title: 'Design 1', content: 'Content for Design 1', filter: 'WordPress' },
 ];
 
-const filters = ['All', '.filter-app', '.filter-web', '.filter-design'];
+const filters = ['All', 'Web Apps', 'React Apps', 'WordPress'];
 
 const FilterableDataTabs: React.FC = () => {
   const [currentFilter, setCurrentFilter] = useState('All');

@@ -3,7 +3,7 @@ import { MoveRight } from "lucide-react";
 import { Book, Facebook, Github, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 // Image
-import about from "assets/images/landing/about.jpg";
+import about from "assets/images/landing/about.jpeg";
 
 const AboutUs = () => {
     return (
@@ -19,6 +19,7 @@ const AboutUs = () => {
                         </div>
                      
                      <div className="ml-auto lg:col-span-5 lg:col-start-16 ">
+                        <p className="mb-4 !leading-normal lg:text-2xl 2xl:text-6xl dark:text-zinc-100" data-aos="fade-right" data-aos-delay="300 ">Contact Me</p>
                      <div className="">
                                 <ul className="flex items-center gap-3 md:justify-end">
                                     <li>
