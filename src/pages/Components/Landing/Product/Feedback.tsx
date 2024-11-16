@@ -25,7 +25,9 @@ const Feedback = () => {
             <section className="relative py-24 xl:py-32" id="feedback">
                 <div className="container 2xl:max-w-[87.5rem] px-4 mx-auto">
                     <div className="mx-auto mb-8 text-center xl:max-w-3xl">
-                        <h1 className="mb-0 leading-normal capitalize hidden">What people say about me</h1>
+                        <h1 className="mb-0 leading-normal capitalize">
+                            <a href="https://www.linkedin.com/in/techietee/details/recommendations">  Know What People Say About Me</a>
+                          </h1>
                     </div>
                     {/* <Swiper className="pb-6 feedback-slider"
                         slidesPerView={3}

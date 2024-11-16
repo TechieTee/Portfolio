@@ -19,7 +19,8 @@ const AboutUs = () => {
                         </div>
                      
                      <div className="ml-auto lg:col-span-5 lg:col-start-16 ">
-                        <p className="mb-4 !leading-normal lg:text-2xl 2xl:text-6xl dark:text-zinc-100" data-aos="fade-right" data-aos-delay="300 ">Contact Me</p>
+                      
+                        <h1 className="mb-0 leading-normal capitalize text-center pb-4">Contact Me</h1>
                      <div className="">
                                 <ul className="flex items-center gap-3 md:justify-end">
                                     <li>
