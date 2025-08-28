@@ -22,7 +22,7 @@ const Footer = () => {
                             <div className="md:col-span-2">
                                 <div className="relative dropdown">
                                     <button type="button" className="inline-flex items-center gap-3 transition-all duration-200 ease-linear dropdown-toggle btn border-slate-700 group/items focus:border-custom-500" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                         <h6 className="text-base font-medium transition-all duration-200 ease-linear text-slate-300 group-hover/items:text-custom-500"> <a href="https://drive.google.com/file/d/1RJ3PsTM8WVagjpGbVby24CRpR8fT7sgh/view?usp=sharing" target={"_blank"}>View CV <Book className="inline-block size-4  rtl:mr-1 ltr:ml-1" /></a>
+                                         <h6 className="text-base font-medium transition-all duration-200 ease-linear text-slate-300 group-hover/items:text-custom-500"> <a href="https://drive.google.com/file/d/1JUmFjM71ekFpkdCMhy_aLuJXpI0DYzXf/view?usp=sharing" target={"_blank"}>View CV <Book className="inline-block size-4  rtl:mr-1 ltr:ml-1" /></a>
                                   </h6>
                                     </button>
 
@@ -36,17 +36,17 @@ const Footer = () => {
                                             <Github className="size-4"></Github></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/techietee/" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
+                                        <a href="https://www.linkedin.com/in/fatimabello/" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Linkedin className="size-4"></Linkedin></a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Instagram className="size-4"></Instagram></a>
                                     </li>
                                     <li>
                                         <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Twitter className="size-4"></Twitter></a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Youtube className="size-4"></Youtube></a>

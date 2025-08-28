@@ -22,23 +22,23 @@ const AboutUs = () => {
                       
                         <h1 className="mb-0 leading-normal capitalize text-center pb-4">Contact Me</h1>
                      <div className="">
-                                <ul className="flex items-center gap-3 md:justify-end">
+                                <ul className="flex items-center gap-3 md:justify-center">
                                     <li>
                                         <a href="https://github.com/techietee" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Github className="size-4"></Github></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/techietee/" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
+                                        <a href="https://www.linkedin.com/in/fatimabello/" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Linkedin className="size-4"></Linkedin></a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Instagram className="size-4"></Instagram></a>
                                     </li>
                                     <li>
                                         <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Twitter className="size-4"></Twitter></a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="#!" className="flex items-center justify-center size-10 transition-all duration-200 ease-linear border rounded-full text-slate-400 border-slate-700 hover:text-custom-500">
                                             <Youtube className="size-4"></Youtube></a>

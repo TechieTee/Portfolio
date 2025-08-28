@@ -26,10 +26,10 @@ const Feedback = () => {
                 <div className="container 2xl:max-w-[87.5rem] px-4 mx-auto">
                     <div className="mx-auto mb-8 text-center xl:max-w-3xl">
                         <h1 className="mb-0 leading-normal capitalize">
-                            <a target="_blank" href="https://www.linkedin.com/in/techietee">  Know What People Say About Me</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/fatimabello">To Know What People Say About Me</a>
                           </h1>
                           <h1 className="mb-0 leading-normal capitalize text-[18px] py-4">
-                            <a target="_blank" href="https://www.linkedin.com/in/techietee">  Visit my LinkedIn profile and scroll down to the 'Recommendations' section to view feedback from my colleagues and collaborators</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/fatimabello">View my LinkedIn profile and scroll down to the 'Recommendations' section to view feedback from my colleagues and collaborators</a>
                           </h1>
                     </div>
                     {/* <Swiper className="pb-6 feedback-slider"

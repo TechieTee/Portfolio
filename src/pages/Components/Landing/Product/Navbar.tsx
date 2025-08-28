@@ -64,6 +64,13 @@ const Navbar = () => {
                                 >
                                     Tech Stack</a>
                             </li>
+                             {/* <li>
+                                <a href="#product"
+                                    className={`block md:inline-block px-4 md:px-3 py-2.5 md:py-0.5 text-15 font-medium text-slate-800 transition-all duration-300 ease-linear hover:text-custom-500 [&.active]:text-custom-500 dark:text-zinc-200 dark:hover:text-custom-500 dark:[&.active]:text-custom-500 ${activeLink === "/Product" ? "active" : ""}`}
+                                    onClick={() => handleLinkClick("/Product")}
+                                >
+                                    Experience</a>
+                            </li> */}
                             <li>
                                 <a href="#project"
                                     className={`block md:inline-block px-4 md:px-3 py-2.5 md:py-0.5 text-15 font-medium text-slate-800 transition-all duration-300 ease-linear hover:text-custom-500 [&.active]:text-custom-500 dark:text-zinc-200 dark:hover:text-custom-500 dark:[&.active]:text-custom-500 ${activeLink === "/Project" ? "active" : ""}`}
@@ -71,20 +78,21 @@ const Navbar = () => {
                                 >
                                     Projects</a>
                             </li>
-                            <li>
-                                <a href="#contact"
-                                    className={`block md:inline-block px-4 md:px-3 py-2.5 md:py-0.5 text-15 font-medium text-slate-800 transition-all duration-300 ease-linear hover:text-custom-500 [&.active]:text-custom-500 dark:text-zinc-200 dark:hover:text-custom-500 dark:[&.active]:text-custom-500 ${activeLink === "/About" ? "active" : ""}`}
-                                    onClick={() => handleLinkClick("/About")}
-                                >
-                                    Contact Me</a>
-                            </li>
-                            <li>
+                              <li>
                                 <a href="#feedback"
                                     className={`block md:inline-block px-4 md:px-3 py-2.5 md:py-0.5 text-15 font-medium text-slate-800 transition-all duration-300 ease-linear hover:text-custom-500 [&.active]:text-custom-500 dark:text-zinc-200 dark:hover:text-custom-500 dark:[&.active]:text-custom-500 ${activeLink === "/Feedback" ? "active" : ""}`}
                                     onClick={() => handleLinkClick("/Feedback")}
                                 >
                                     Recommendations</a>
                             </li>
+                            <li>
+                                <a href="#contact"
+                                    className={`block md:inline-block px-4 md:px-3 py-2.5 md:py-0.5 text-15 font-medium text-slate-800 transition-all duration-300 ease-linear hover:text-custom-500 [&.active]:text-custom-500 dark:text-zinc-200 dark:hover:text-custom-500 dark:[&.active]:text-custom-500 ${activeLink === "/About" ? "active" : ""}`}
+                                    onClick={() => handleLinkClick("/About")}
+                                >
+                                    Contact</a>
+                            </li>
+                          
                         </ul>
                     </div>
                     <div className="flex gap-2">

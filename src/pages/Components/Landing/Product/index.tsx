@@ -57,10 +57,12 @@ const Product = () => {
                 <Navbar />
                 <Home />
                 <OurProduct />
+                  <OurProduct />
        <FilterableDataTabs />
                 {/* <Features /> */}
-                <AboutUs />
+               
                 <Feedback />
+                 <AboutUs />
                 <Footer />
                 <button id="back-to-top"
                     className="fixed flex items-center justify-center size-10 text-white bg-purple-500 rounded-md bottom-10 right-10"
