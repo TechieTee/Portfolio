@@ -57,7 +57,7 @@ const Product = () => {
                 <Navbar />
                 <Home />
                 <OurProduct />
-                  <OurProduct />
+              
        <FilterableDataTabs />
                 {/* <Features /> */}
                
